@@ -1,15 +1,13 @@
 ﻿@{
     ViewData["Title"] = "Index";
 }
-<h1>TP XX Index</h1>
+<h1>TP 04 Index</h1>
 <h2>Index</h2>
 <p>¡Bienvenido a la mejor página para el turismo!</p>
 <a href='@Url.Action("SelectPaquete", "Home")' alt = "Generar Paquete"> Selecciona tu paquete</a>
- @{
-    foreach (string destino in ORTWorld.Paquetes.Keys)
+  @foreach (string destino in ORTWorld.Paquetes.Keys)
     {
-        Console.WriteLine("La companía aerea es " + ORTWorld.Paquetes[destino].Aereo);
-        Console.WriteLine("La excursion es " + ORTWorld.Paquetes[destino].Excursion);
-        Console.WriteLine("El hotel es " + ORTWorld.Paquetes[destino].Hotel);
+        <p>La companía aerea es  @ORTWorld.Paquetes.[destino].Aereo</p>
+        <p>La excursion es   @ORTWorld.Paquetes[destino].Excursion</p>
+        <p>El hotel es   @ORTWorld.Paquetes[destino].Hotel</p>
     }
- }
