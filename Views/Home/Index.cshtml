@@ -7,7 +7,7 @@
 <a href='@Url.Action("SelectPaquete", "Home")' alt = "Generar Paquete"> Selecciona tu paquete</a>
   @foreach (string destino in ORTWorld.Paquetes.Keys)
     {
-        <p>La companía aerea es  @ORTWorld.Paquetes.[destino].Aereo</p>
+        <p>La companía aerea es  @ViewBag.ListaAereo</p>
         <p>La excursion es   @ORTWorld.Paquetes[destino].Excursion</p>
         <p>El hotel es   @ORTWorld.Paquetes[destino].Hotel</p>
     }

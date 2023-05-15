@@ -1,1 +1,14 @@
-<form action='@Url.Action("GuardarPaquete")'></form>
+<form action='@Url.Action("GuardarPaquete")'>
+<div>
+    <h2>Seleccione su Destino</h2>
+        <select name="Destino">
+            @for (int i = 0; i < @ORTWorld.ListaDestinos.Count; i++)
+            {
+                <option>@ORTWorld.ListaDestinos[i]</option>   
+            }
+        </select>
+</div>
+<br>
+<br>
+<button><input type="sumbit" value="Enviar Datos"></button>
+</form>
