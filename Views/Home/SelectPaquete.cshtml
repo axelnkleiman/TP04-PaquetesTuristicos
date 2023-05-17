@@ -8,6 +8,14 @@
             }
         </select>
 </div>
+    <h2>Seleccione su Hotel</h2>
+<div>
+    @for (int i = 0; i < @ORTWorld.ListaHoteles.Count; i++)
+    {
+        <input type = "radio" name = "Hotel" value="@i" class="img">
+        <img src="@Url.Content(ViewBag.ListaHoteles[i])" width="20%" height="auto" alt="Option">
+    }
+</div>
 <br>
 <br>
 <button><input type="sumbit" value="Enviar Datos"></button>
