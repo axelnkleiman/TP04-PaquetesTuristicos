@@ -1,0 +1,165 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Ivan\\Documents\\Programacion\\Tp turismo\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\PaquetesTuristicos.bundle.scp.css",
+      "PackagePath": "staticwebassets\\PaquetesTuristicos.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\Ivan\\Documents\\Programacion\\Tp turismo\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\Ivan\\Documents\\Programacion\\Tp turismo\\wwwroot\\css\\styles.css",
+      "PackagePath": "staticwebassets\\css\\styles.css"
+    },
+    {
+      "Id": "C:\\Users\\Ivan\\Documents\\Programacion\\Tp turismo\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Ivan\\Documents\\Programacion\\Tp turismo\\wwwroot\\img\\Thumbs.db",
+      "PackagePath": "staticwebassets\\img\\Thumbs.db"
+    },
+    {
+      "Id": "C:\\Users\\Ivan\\Documents\\Programacion\\Tp turismo\\wwwroot\\img\\aerolineas_argentinas.jpg",
+      "PackagePath": "staticwebassets\\img\\aerolineas_argentinas.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ivan\\Documents\\Programacion\\Tp turismo\\wwwroot\\img\\aeromexico.jpeg",
+      "PackagePath": "staticwebassets\\img\\aeromexico.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Ivan\\Documents\\Programacion\\Tp turismo\\wwwroot\\img\\air_china.png",
+      "PackagePath": "staticwebassets\\img\\air_china.png"
+    },
+    {
+      "Id": "C:\\Users\\Ivan\\Documents\\Programacion\\Tp turismo\\wwwroot\\img\\amalfitani.jpg",
+      "PackagePath": "staticwebassets\\img\\amalfitani.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ivan\\Documents\\Programacion\\Tp turismo\\wwwroot\\img\\american.png",
+      "PackagePath": "staticwebassets\\img\\american.png"
+    },
+    {
+      "Id": "C:\\Users\\Ivan\\Documents\\Programacion\\Tp turismo\\wwwroot\\img\\arroyito.jpg",
+      "PackagePath": "staticwebassets\\img\\arroyito.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ivan\\Documents\\Programacion\\Tp turismo\\wwwroot\\img\\bielsa.jpg",
+      "PackagePath": "staticwebassets\\img\\bielsa.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ivan\\Documents\\Programacion\\Tp turismo\\wwwroot\\img\\boca.png",
+      "PackagePath": "staticwebassets\\img\\boca.png"
+    },
+    {
+      "Id": "C:\\Users\\Ivan\\Documents\\Programacion\\Tp turismo\\wwwroot\\img\\british_airways.png",
+      "PackagePath": "staticwebassets\\img\\british_airways.png"
+    },
+    {
+      "Id": "C:\\Users\\Ivan\\Documents\\Programacion\\Tp turismo\\wwwroot\\img\\cilindro.jpg",
+      "PackagePath": "staticwebassets\\img\\cilindro.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ivan\\Documents\\Programacion\\Tp turismo\\wwwroot\\img\\copa_air.jpg",
+      "PackagePath": "staticwebassets\\img\\copa_air.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ivan\\Documents\\Programacion\\Tp turismo\\wwwroot\\img\\emirates.png",
+      "PackagePath": "staticwebassets\\img\\emirates.png"
+    },
+    {
+      "Id": "C:\\Users\\Ivan\\Documents\\Programacion\\Tp turismo\\wwwroot\\img\\gasometro.jpg",
+      "PackagePath": "staticwebassets\\img\\gasometro.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ivan\\Documents\\Programacion\\Tp turismo\\wwwroot\\img\\hotel1.jpg",
+      "PackagePath": "staticwebassets\\img\\hotel1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ivan\\Documents\\Programacion\\Tp turismo\\wwwroot\\img\\hotel10.jpg",
+      "PackagePath": "staticwebassets\\img\\hotel10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ivan\\Documents\\Programacion\\Tp turismo\\wwwroot\\img\\hotel2.jpg",
+      "PackagePath": "staticwebassets\\img\\hotel2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ivan\\Documents\\Programacion\\Tp turismo\\wwwroot\\img\\hotel3.jpg",
+      "PackagePath": "staticwebassets\\img\\hotel3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ivan\\Documents\\Programacion\\Tp turismo\\wwwroot\\img\\hotel4.jpg",
+      "PackagePath": "staticwebassets\\img\\hotel4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ivan\\Documents\\Programacion\\Tp turismo\\wwwroot\\img\\hotel5.jpg",
+      "PackagePath": "staticwebassets\\img\\hotel5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ivan\\Documents\\Programacion\\Tp turismo\\wwwroot\\img\\hotel6.jpg",
+      "PackagePath": "staticwebassets\\img\\hotel6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ivan\\Documents\\Programacion\\Tp turismo\\wwwroot\\img\\hotel7.jpg",
+      "PackagePath": "staticwebassets\\img\\hotel7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ivan\\Documents\\Programacion\\Tp turismo\\wwwroot\\img\\hotel8.jpg",
+      "PackagePath": "staticwebassets\\img\\hotel8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ivan\\Documents\\Programacion\\Tp turismo\\wwwroot\\img\\hotel9.jpeg",
+      "PackagePath": "staticwebassets\\img\\hotel9.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Ivan\\Documents\\Programacion\\Tp turismo\\wwwroot\\img\\independiente.png",
+      "PackagePath": "staticwebassets\\img\\independiente.png"
+    },
+    {
+      "Id": "C:\\Users\\Ivan\\Documents\\Programacion\\Tp turismo\\wwwroot\\img\\latam.png",
+      "PackagePath": "staticwebassets\\img\\latam.png"
+    },
+    {
+      "Id": "C:\\Users\\Ivan\\Documents\\Programacion\\Tp turismo\\wwwroot\\img\\lufthansa.png",
+      "PackagePath": "staticwebassets\\img\\lufthansa.png"
+    },
+    {
+      "Id": "C:\\Users\\Ivan\\Documents\\Programacion\\Tp turismo\\wwwroot\\img\\maradona.jpg",
+      "PackagePath": "staticwebassets\\img\\maradona.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ivan\\Documents\\Programacion\\Tp turismo\\wwwroot\\img\\mudomental.jpg",
+      "PackagePath": "staticwebassets\\img\\mudomental.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ivan\\Documents\\Programacion\\Tp turismo\\wwwroot\\img\\qatar.png",
+      "PackagePath": "staticwebassets\\img\\qatar.png"
+    },
+    {
+      "Id": "C:\\Users\\Ivan\\Documents\\Programacion\\Tp turismo\\wwwroot\\img\\uno.jpg",
+      "PackagePath": "staticwebassets\\img\\uno.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ivan\\Documents\\Programacion\\Tp turismo\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.PaquetesTuristicos.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.PaquetesTuristicos.props",
+      "PackagePath": "build\\PaquetesTuristicos.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.PaquetesTuristicos.props",
+      "PackagePath": "buildMultiTargeting\\PaquetesTuristicos.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.PaquetesTuristicos.props",
+      "PackagePath": "buildTransitive\\PaquetesTuristicos.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

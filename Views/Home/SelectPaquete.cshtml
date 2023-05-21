@@ -1,0 +1,49 @@
+<link rel="stylesheet" type="text/css" href="/css/styles.css">
+
+<form action="@Url.Action("GuardarPaquete", "Home")" method="post">
+
+  <div>
+    <h2>Seleccione su Destino</h2>
+    <select name="Destino">
+      @for (int i = 0; i < ViewBag.ListaDestinos.Count; i++)
+      {
+        <option value="@i">@ViewBag.ListaDestinos[i]</option>
+      }
+    </select>
+  </div>
+
+  <h2>Seleccione su Hotel</h2>
+  <div>
+    @for (int i = 0; i < ViewBag.ListaHoteles.Count; i++)
+    {
+      <label>
+        <input type="radio" name="Hotel" value="@i" required>
+        <img src="@Url.Content(ViewBag.ListaHoteles[i])" width="200px" height="150px" alt="Option">
+      </label>
+    }
+  </div>
+
+  <h2>Seleccione su Aereo</h2>
+  <div>
+    @for (int i = 0; i < ViewBag.ListaAereo.Count; i++)
+    {
+      <label>
+        <input type="radio" name="Aereo" value="@i" required>
+        <img src="@Url.Content(ViewBag.ListaAereo[i])" width="150px" height="115px" alt="Option">
+      </label>
+    }
+  </div>
+
+  <h2>Seleccione su Excursion</h2>
+  <div>
+    @for (int i = 0; i < ViewBag.ListaExcursiones.Count; i++)
+    {
+      <label>
+        <input type="radio" name="Excursion" value="@i" required>
+        <img src="@Url.Content(ViewBag.ListaExcursiones[i])" width="200px" height="150px" alt="Option">
+      </label>
+    }
+  </div>
+
+  <p><button type="submit">Enviar Datos</button></p>
+</form>

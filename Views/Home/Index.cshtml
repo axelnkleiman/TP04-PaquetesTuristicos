@@ -1,0 +1,45 @@
+﻿
+<link rel="stylesheet" type="text/css" href="/css/styles.css">
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Los Goats Del Turismo</h1>
+<h2>¡Bienvenido a la mejor compañía de viajes!</h2>
+
+<button><a href='@Url.Action("SelectPaquete", "Home")' alt="Generar Paquete">Selecciona tu paquete</a></button>
+
+@if (ViewBag.Paquetes != null)
+{
+    var paquetes = (Dictionary<int, Paquete>)ViewBag.Paquetes;
+
+    foreach (var paquete in paquetes.Values)
+    {
+        <p>Paquete</p>
+
+        @if (int.TryParse(paquete.Destino, out var destinoIndex) && destinoIndex >= 0 && destinoIndex < ORTWorld.ListaDestinos.Count)
+        {
+            var destino = ORTWorld.ListaDestinos[destinoIndex];
+            <p>El destino es @destino</p>
+        }
+
+        @if (int.TryParse(paquete.Hotel, out var hotelIndex) && hotelIndex >= 0 && hotelIndex < ORTWorld.ListaHoteles.Count)
+        {
+            <p>Hotel:</p>
+            <img src="@Url.Content(ORTWorld.ListaHoteles[hotelIndex])" width="100px" height="75px" alt="Option">
+        }
+
+        @if (int.TryParse(paquete.Aereo, out var aereoIndex) && aereoIndex >= 0 && aereoIndex < ORTWorld.ListaAereo.Count)
+        {
+            <p>Aereo</p>
+            <img src="@Url.Content(ORTWorld.ListaAereo[aereoIndex])" width="100px" height="75px" alt="Option">
+        }
+
+        @if (int.TryParse(paquete.Excursion, out var excursionIndex) && excursionIndex >= 0 && excursionIndex < ORTWorld.ListaExcursiones.Count)
+        {
+            <p>Excursion</p>
+            <img src="@Url.Content(ORTWorld.ListaExcursiones[excursionIndex])" width="100px" height="75px" alt="Option">
+        }
+    }
+}
